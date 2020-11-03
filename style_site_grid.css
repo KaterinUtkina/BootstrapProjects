@@ -1,0 +1,233 @@
+html {
+    overflow-x: hidden;
+}
+@font-face {
+    font-family:"PT Sans";
+    src: url("/font/PTSans-Regular.ttf") format("ttf"),
+    url("/font/PTSans-Bold.ttf") format("ttf");
+}
+body {
+    margin:0;
+    padding:0;
+
+    font-family: "PT Sans", Arial, sans-serif;
+    line-height: 24px;
+    font-weight: 700;
+    color: #787b80;
+    background-color: #f5f5f5;
+}
+.main_header {
+    background-color: #189f8b;
+    background-image: url("picture/logo_picture.jpg");
+}
+.dark_lending {
+    background-color:rgba(0,0,0,.5);
+
+}
+.dark_lending,
+.main_header {
+    background-repeat: no-repeat;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+.logo img {
+    width: 115px;
+    height: 50px;
+    margin-top: 62px;
+}
+.logo {
+    margin-left: 50%;
+    transform: translateX(-70px);
+}
+.navs {
+    margin-top: 41px;
+}
+.nav_link {
+    display: block;
+    color: white;
+    min-width: 110px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    border:2px solid transparent;
+}
+.nav_link:hover,
+.rounded:hover,
+.nav_link:focus,
+.rounded:focus,
+.nav-link:active,
+.rounded:active {
+    background-color: white;
+    color: #189f8b;
+    border:2px solid #189f8b;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.slogan {
+    font-size: 52px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 60px;
+    text-align: center;
+}
+.lead {
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 25px;
+    overflow: hidden;
+}
+.btn {
+    font:inherit;
+    text-align: center;
+    background-color: #189f8b;
+}
+.btn-info {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    padding: 20px 25px 20px 37px;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    border:2px solid #189f8b;
+}
+.btn:hover,
+.btn:focus,
+.btn:active {
+    background-color: white;
+    color: #189f8b;
+}
+.button_header {
+    margin-left: 50%;
+    transform: translateX(-120px);
+}
+.features {
+    min-height: 285px;
+    background-color: #eeeeef;
+}
+.jumbotron {
+    background-color: transparent;
+    display: block;
+}
+.features .jumbotron img {
+    width: 45px;
+    height: 45px;
+}
+.display-4 {
+    text-transform: uppercase;
+}
+.features .display-4 {
+    font-size: 15px;
+    line-height: 20px;
+    padding-top: 15px;
+}
+.features .jumbotron {
+    margin-top: -30px;
+    text-align: center;
+}
+.template {
+    min-height: 530px;
+}
+.template .jumbotron {
+    padding-top: 65px;
+}
+.template .display-4{
+    padding-top: 25px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.template .btn {
+    margin-top: 33px;
+    border-color: #189f8b;
+}
+.supported_template {
+    min-height: 330px;
+    background-color: #eeeeef;
+}
+.supported_template .display-4 {
+    padding-top: 25px;
+    font-size: 25px;
+    line-height: 30px;
+}
+.supported_template .btn {
+    margin-top: 35px;
+    border-color: #189f8b;
+}
+.checks .jumbotron {
+    margin-top: -50px;
+}
+.checks .display-4{
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 35px;
+}
+.check_link {
+    color: #189f8b;
+}
+.reviews {
+    min-height: 320px;
+    background-color: #eeeeef;
+}
+.reviews .jumbotron {
+    background-color: transparent;
+}
+.reviews .display-4 {
+    font-size: 18px;
+    line-height: 20px;
+}
+.reviews .btn {
+    margin-top: 30px;
+    border-color: #189f8b;
+}
+.reviews .media {
+    margin-bottom: -10px;
+}
+.partner {
+    min-height: 225px;
+    background-color: #189f8b;
+}
+.partner .mt-0 {
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    padding: 0;
+}
+.partner .media {
+    min-width: 350px;
+    width: 25%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.line {
+    min-width: 350px;
+    width: 30%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: auto;
+}
+.list_partner {
+    margin-top: 20px;
+}
+.item_partner {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+footer {
+    min-height: 55px;
+    padding: 20px 0;
+    font-size: 12px;
+}
+.item_footer,
+.item_footer_main {
+    padding:10px 0;
+}
+.item_footer {
+    display: block;
+    text-align: center;
+}
