@@ -19,43 +19,43 @@ body {
 
     background-color: #f5f5f5;
 }
-.main_header{
+.main_header {
     background-color: #189f8b;
     background-image: url("picture/logo_picture.jpg");
 }
-.dark_lending{
+.dark_lending {
     background-color:rgba(0,0,0,.5);
 }
-.dark_lending, .main_header{
+.dark_lending, .main_header {
     min-height: 590px;
     background-repeat: no-repeat;
-    -moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; /* Современные браузеры */
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
 }
-.logo img{
+.logo img {
     width: 115px;
     height: 50px;
     margin-top: 62px;
 }
-.logo{
+.logo {
     margin-left: 50%;
     transform: translateX(-70px);
 }
-.container_nav{
-margin-top: 41px;
+.container_nav {
+    margin-top: 41px;
 }
-.nav-link{
+.nav-link {
     color: white;
 }
 .nav-link:hover,
 .nav-link:focus,
-.nav-link:active{
+.nav-link:active {
     background-color: white;
     color: #189f8b;
 }
-.slogan{
+.slogan {
     font-size: 52px;
     line-height: 60px;
     text-transform: uppercase;
@@ -72,12 +72,12 @@ margin-top: 41px;
     margin-top: 25px;
     overflow: hidden;
 }
-.btn{
+.btn {
     font:inherit;
     text-align: center;
     background-color: #189f8b;
 }
-.btn-info{
+.btn-info {
     margin-top: 60px;
     padding: 20px 25px 20px 37px;
     font-size: 15px;
@@ -87,144 +87,150 @@ margin-top: 41px;
 }
 .btn:hover,
 .btn:focus,
-.btn:active{
+.btn:active {
     background-color: white;
     color: #189f8b;
 }
-.button_header{
+.button_header {
     margin-left: 50%;
     transform: translateX(-120px);
 }
-.jumbotron{
+.jumbotron {
     background-color: transparent;
 }
-.features{
+.features {
     min-height: 285px;
     background-color: #eeeeef;
 }
-.features .p-2{
+.features .p-2 {
     width:250px;
     margin: 0;
     text-align: center;
 }
-.display-4{
+.display-4 {
     text-transform: uppercase;
 }
-.features .display-4{
+.features .display-4 {
     font-size: 15px;
     line-height: 20px;
     padding-top: 15px;
 }
-.features .jumbotron{
+.features .jumbotron {
     margin-top: -30px;
 }
-.features .jumbotron img{
+.features .jumbotron img {
     width: 45px;
     height: 45px;
 }
-.template{
+.template {
     min-height: 530px;
 }
-.template .p-2{
+.template .p-2 {
     width: 360px;
 }
-.template .jumbotron{
+.template .jumbotron {
     padding-top: 65px;
 }
-.template .display-4{
+.template .display-4 {
     padding-top: 25px;
     font-size: 18px;
     line-height: 20px;
 }
-.template .btn{
+.template .btn {
     margin-top: 33px;
     border-color: #189f8b;
 }
-.supported_template{
+.supported_template {
     min-height: 330px;
     background-color: #eeeeef;
-    padding-left: 300px;
 }
-
-.supported_template .jumbotron{
+.supported_template .wrapper {
+    margin-left: 50%;
+    transform: translateX(-390px);
+}
+.supported_template .jumbotron {
     width: 780px;
     padding-top: 65px;
     padding-left: 50px;
 }
-.supported_template .display-4{
+.supported_template .display-4 {
     padding-top: 25px;
     font-size: 25px;
     line-height: 30px;
 }
-.supported_template .btn{
+.supported_template .btn {
     margin-top: 35px;
     border-color: #189f8b;
 }
-.checks .jumbotron{
+.checks .jumbotron {
     margin-top: -50px;
 }
-.checks .p-2{
+.checks .p-2 {
     width: 260px;
 }
-.checks .display-4{
+.checks .display-4 {
     font-size: 18px;
     line-height: 20px;
     padding-top: 35px;
 }
-.check_link{
+.check_link {
     color: #189f8b;
 }
-.reviews{
+.reviews {
     min-height: 320px;
     background-color: #eeeeef;
 }
-.reviews .jumbotron{
+.reviews .jumbotron {
     background-color: transparent;
     padding-left: 50px;
 }
-.reviews .p-2{
+.reviews .p-2 {
     width: 400px;
 }
-.reviews .display-4{
+.reviews .display-4 {
     font-size: 18px;
     line-height: 20px;
 }
-.reviews .btn{
+.reviews .btn {
     margin-top: 30px;
     border-color: #189f8b;
 }
-.reviews .media{
+.reviews .media {
     margin-bottom: -10px;
 }
-.partner{
+.partner {
     min-height: 225px;
     background-color: #189f8b;
 }
-.partner .mt-0{
+.partner .mt-0 {
     font-size: 15px;
     color: white;
     text-transform: uppercase;
 }
-.partner .media{
+.partner .media {
     margin: auto;
     width: 320px;
     padding-top: 50px;
 }
-.line{
+.line {
     width: 340px;
     height: 2px;
     background-color: rgba(255, 255, 255, 0.1);
     margin: auto;
 }
-.partner .row{
-    margin-top: 35px;
-    padding-left: 350px;
+.partner .p-2 {
+    width: 180px;
+    display: block;
+    text-align: center;
 }
-.partner .col-2{
-    width: 250px;
-}
-footer{
+
+footer {
     min-height: 55px;
-padding: 20px 315px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 12px;
+}
+footer .d-flex {
+    width: 750px ;
+    margin:auto;
 }
